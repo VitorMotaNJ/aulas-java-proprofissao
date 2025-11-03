@@ -1,11 +1,8 @@
-# IntelliJ / IDEA
 .idea/
 *.iml
 
-# Sistema operacional
 .DS_Store
 Thumbs.db
 
-# Java build dirs (se um dia usar Maven/Gradle)
 out/
 target/
