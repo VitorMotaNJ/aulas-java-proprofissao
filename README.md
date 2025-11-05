@@ -5,7 +5,7 @@ Repositório criado para armazenar as atividades e exercícios realizados durant
 ---
 As aulas estão nomeadas seguindo a seguinte lógica: aula + numero da aula + dia + mês
 
-Ex: Aula01_d3_m11 = Aula 01 do dia 3 de novembro
+Ex: Aula01_d3_m11 = Aula 1 do dia 3 de novembro
 
 ## Tecnologias
 
