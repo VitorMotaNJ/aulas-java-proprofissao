@@ -12,6 +12,7 @@ public class Caneta {
     /*Criação dos métodos */
 
     void rabiscar(){
+
         if(this.tampada){
             System.out.println("A caneta está tampada, não é possível realizar esta operação!");
         }else{
@@ -24,6 +25,9 @@ public class Caneta {
     }
     void destampar(){
         this.tampada = false;
+    }
+    void desenhar(){
+        System.out.println("Você está desenhando!");
     }
 
     /*Definição do estado atual*/
