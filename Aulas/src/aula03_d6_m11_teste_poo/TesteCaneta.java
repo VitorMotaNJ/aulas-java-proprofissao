@@ -6,18 +6,34 @@ public class TesteCaneta {
         Scanner nc = new Scanner(System.in);
         System.out.println("Quantas canetas você tem?");
         int qtdCanetas = nc.nextInt();
+        nc.nextLine();
 
-        int[] vetorCanetas = new int[qtdCanetas];
+        Caneta[] vetorCanetas = new Caneta[qtdCanetas];
 
         for(int i = 0; i < qtdCanetas; i++){
+            System.out.println("Informe a caneta " + (i + 1) + ":");
 
             System.out.println("Qual o modelo da caneta?");
+            String modelo = nc.nextLine();
 
             System.out.println("Qual a cor da caneta?");
+            String cor = nc.nextLine();
 
             System.out.println("Qual a ponta da caneta?");
+            float  ponta = nc.nextFloat();
 
             System.out.println("Quanto de carga tem a caneta?");
+            int carga = nc.nextInt();
+
+            Caneta caneta = new Caneta();
+            caneta.modelo = modelo;
+            caneta.cor = cor;
+            caneta.ponta = ponta;
+            caneta.carga = carga;
+
+            vetorCanetas[i] = caneta;
+            caneta.estado();
+
         }
 
         Caneta caneta1 = new Caneta();
