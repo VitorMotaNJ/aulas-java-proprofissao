@@ -2,7 +2,7 @@ package aula04_d14_m11_comandos_repeticao;
 
 import java.util.Scanner;
 
-public class Tabuada {
+public class TabuadaFor {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("-----------------TABUADA-----------------");
