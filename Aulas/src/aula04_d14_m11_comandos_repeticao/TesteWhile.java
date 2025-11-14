@@ -1,4 +1,4 @@
-package aula03_d14_m11_comandos_repeticao;
+package aula04_d14_m11_comandos_repeticao;
 
 public class TesteWhile {
     static void main(String[] args) {
